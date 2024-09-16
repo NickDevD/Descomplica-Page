@@ -4,7 +4,7 @@ Projeto criado para aperfeiçoar minhas habilidades em HTML, CSS e BootStrap.
 
 ## 🛠️ IDE Utilizada
 
-Utilizei apenas o Vscode para desenvolver a página
+Utilizei apenas o Vscode para desenvolver a página.
 
 
 ## ✒️ Dev
