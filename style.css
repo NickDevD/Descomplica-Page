@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("/font/ProtestGuerrilla-Regular.ttf");
+    
+}
+
+body{
+    font-family:"MinhaFonte";
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(37, 240, 37, 0.767);
+    background-image: url("/img/61701a6d0d23bb3dd92900d2_planomais-thumb.png");
+    background-size:auto;
+    animation: mymove 60s infinite;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.chamada{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.custom-btn {
+    background-color: rgb(0, 0, 0); /* Cor de fundo dos botões */
+    color: rgb(18, 170, 4); /* Cor do texto dos botões */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda as bordas */
+    padding: 15px 15px; /* Aumenta o padding para botões maiores */
+    font-size: 40px;
+  }
+
+  .custom-btn:hover{
+    background-color: rgb(253, 253, 253);
+    font-size: 42px;
+  }
+
+@keyframes mymove {
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+    
+  }
+
